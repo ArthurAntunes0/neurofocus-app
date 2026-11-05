@@ -2,8 +2,8 @@
 // CONFIGURAÇÃO DA API
 // ==========================================================
 // Quando publicar sua API C# no Render/Railway, troque a URL abaixo:
-const API_BASE_URL = "http://localhost:5000/api/quiz";
-const MODO_DEMO_LOCAL = true; // Deixe true para testar o Front sozinho sem a API estar ligada
+const API_BASE_URL = "https://api-neurofocus.azurewebsites.net/api/quiz";
+const MODO_DEMO_LOCAL = false; // Deixe true para testar o Front sozinho sem a API estar ligada
 
 const questions = [
     // 14 TDAH
